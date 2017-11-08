@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="wjx.classmanager.ui.activity.ShowNotifyActivity">
+    <include layout="@layout/back_bar_layout"/>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="2"
+       android:orientation="vertical"
+       >
+       <!--标题-->
+       <TextView
+           android:id="@+id/text_title"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="2"
+           android:text="这是通知标题"
+           android:textSize="30sp"
+           android:gravity="center_vertical"
+           android:layout_marginLeft="10dp"
+           />
+
+       <!--时间-->
+       <TextView
+           android:id="@+id/text_time"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:gravity="center_vertical"
+           android:layout_marginLeft="10dp"
+           android:text="2017-11-05"
+           />
+
+   </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="#E6E6E6"/>
+
+    <!--内容-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:id="@+id/text_content"
+        android:text="这是通知内容"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        />
+
+    <!--附件-->
+        <TextView
+            android:id="@+id/text_file"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="附件"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+
+</LinearLayout>

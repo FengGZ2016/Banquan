@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Fab大小设置-->
+    <dimen name="design_fab_size_normal" tools:ignore="PrivateResource">80dp</dimen>
+    <!--Fab中间Icon大小设置-->
+    <dimen name="design_fab_image_size" tools:override="true">60dp</dimen>
+</resources>

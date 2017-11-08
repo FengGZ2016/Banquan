@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">班圈</string>
+    <string name="used">体验班圈</string>
+
+    <!--主界面底部TAB-->
+    <string name="message">消息</string>
+    <string name="notification">班级成员</string>
+    <string name="manage">管理</string>
+
+    <!--主界面菜单选项-->
+    <string name="create_class">建立班级</string>
+    <string name="join_class">加入班级</string>
+    <string name="scan_code">扫一扫</string>
+
+    <!--主界面侧滑菜单-->
+    <string name="my_class">我的班级</string>
+    <string name="evaluate">推优评优</string>
+    <string name="activity_vote">活动投票</string>
+    <string name="post_data">上传资料</string>
+    <string name="personal_info">个人信息</string>
+    <string name="unsign">退出登录</string>
+
+    <!--登录界面-->
+    <string name="register_name">请输入账号</string>
+    <string name="register_pass">请输入密码</string>
+    <string name="register_phone">请输入手机号</string>
+    <string name="register_code">请输入验证码</string>
+    <string name="register_getcode">获取验证码</string>
+    <string name="register_sign">注  册</string>
+
+    <string name="location_recv">[%1$s location]</string>
+    <string name="location_message">The location information</string>
+    <string name="recording_video">Record video</string>
+    <string name="location_prefix">[my location]</string>
+    <string name="voice">Voice</string>
+    <string name="picture">[Picture]</string>
+    <string name="video">[Video]</string>
+    <string name="file">[file]</string>
+    <string name="dynamic_expression">[Dynamic expression]</string>
+    <string name="voice_prefix">[Voice]</string>
+    <string name="voice_call">[Voice call]</string>
+    <string name="video_call">[Video call]</string>
+    <string name="all_members">All members</string>
+    <string name="emojicon_test_name">Test</string>
+    <string name="at_your_in_group">%s @ you in group chat</string>
+    <string name="Agreed_to_your_group_chat_application">Accepted your group application</string>
+    <string name="Invite_you_to_join_a_group_chat"> Invite you to join this group</string>
+    <string name="msg_recall_by_user">This message has been recalled by %1$s</string>
+    <string name="Has_agreed_to_your_friend_request">Accepted your request</string>
+    <string name="Request_to_add_you_as_a_friend">You got a friend request</string>
+    <string name="Apply_to_the_group_of">Apply to join the group</string>
+    <string name="invite_join_group">Invite to join the group</string>
+    <string name="Has_agreed_to">Accepted</string>
+    <string name="Has_refused_to">Refused</string>
+    <string name="Are_agree_with">Accepting</string>
+    <string name="Are_refuse_with">Refusing</string>
+    <string name="direct_call">Direct</string>
+    <string name="relay_call">Relay</string>
+    <string name="Agree_with_failure">Failed to accept</string>
+    <string name="Refuse_with_failure">Failed to refuse</string>
+    <string name="accept_join_group">%s accept join group</string>
+    <string name="refuse_join_group">%s refuse join group</string>
+    <string name="multi_device_contact_accept">Accept contact %s in other device</string>
+    <string name="multi_device_contact_decline">Decline contact %s in other device</string>
+    <string name="multi_device_contact_add">Send contact invite to %s in other device</string>
+    <string name="multi_device_contact_ban">add %s into black list in other device</string>
+    <string name="multi_device_contact_allow">remove %s from black list in other device</string>
+    <string name="multi_device_group_create">Create group [remote]</string>
+    <string name="multi_device_group_destroy">Destroy group [remote]</string>
+    <string name="multi_device_group_join">Join group [remote]</string>
+    <string name="multi_device_group_leave">Leave group [remote]</string>
+    <string name="multi_device_group_apply">Apply to join group [remote]</string>
+    <string name="multi_device_group_apply_accept">Accept %s join group application[remote]</string>
+    <string name="multi_device_group_apply_decline">Decline %s join group application[remote]</string>
+    <string name="multi_device_group_invite">Invite %s join group [remote]</string>
+    <string name="multi_device_group_invite_accept">Accept %s join group invitation[remote]</string>
+    <string name="multi_device_group_invite_decline">Decline %s join group invitation[remote]</string>
+
+    <string name="multi_device_group_kick">Kick %s from group [remote]</string>
+    <string name="multi_device_group_ban">Add %s into blacklist in group [remote]</string>
+    <string name="multi_device_group_allow">Remove %s from blacklist in group [remote]</string>
+    <string name="multi_device_group_block">Block group [remote]</string>
+    <string name="multi_device_group_unblock">Unblock group [remote]</string>
+    <string name="multi_device_group_assign_owner">Assign group owner to %s [remote]</string>
+    <string name="multi_device_group_add_admin">Add %s as group admin [remote]</string>
+    <string name="multi_device_group_remove_admin">Deprive %s group admin role [remote]</string>
+    <string name="multi_device_group_add_mute">Mute %s from group [remote]</string>
+    <string name="multi_device_group_remove_mute">UnMute %s from group [remote]</string>
+
+</resources>
